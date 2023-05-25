@@ -1,0 +1,66 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .container {
+      width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+    }
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .profile-info {
+      margin-left: 20px;
+    }
+    .profile-name {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .profile-bio {
+      font-size: 18px;
+      color: #666666;
+    }
+    .profile-links {
+      display: flex;
+      margin-top: 10px;
+    }
+    .profile-link {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333333;
+    }
+    .profile-link:hover {
+      color: #0099ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="profile.jpg" alt="プロフィール画像" class="profile-image">
+      <div class="profile-info">
+        <h1 class="profile-name">はほはほ部長</h1>
+        <p class="profile-bio">デベロッパーではない何か。部長でもないし社長でもないです。ただの一般people</p>
+        <div class="profile-links">
+          <a href="https://twitter.com/hakurei28" class="profile-link">Twitter</a>
+          <a href="https://github.com/internet-saikou" class="profile-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
